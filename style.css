@@ -1,0 +1,14 @@
+body {
+    background-color:#030613;
+    color:#4fcdb9;
+    font-family: monospace;
+    text-align: center;
+    /*  color-font: #4fcdb9
+        background-color:rgb(14, 86, 95)
+        #0a1928
+        #030613
+    */
+}
+h1 {
+    transform: translateY(20px);
+}

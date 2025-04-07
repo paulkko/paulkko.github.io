@@ -12,3 +12,51 @@ body {
 h1 {
     transform: translateY(20px);
 }
+button {
+    background-color: #030613; 
+    border: none;
+    color: #4fcdb9;
+    font-family:monospace;
+    border-radius: 12px;
+    border: 2px solid #4fcdb9;
+    margin-bottom: 13px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+button:hover span{
+    padding-right: 25px;
+    /* background-color: #4fcdb9;
+    color: #030613; */
+
+    /*FIX ME*/
+    /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+button:active {
+    background-color: #4fcdb9;
+    color: #030613;
+}

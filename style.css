@@ -20,7 +20,6 @@ button {
     border-radius: 12px;
     border: 2px solid #4fcdb9;
     margin-bottom: 13px;
-    cursor: pointer;
     transition: all 0.5s;
 
     padding: 15px 32px;
@@ -30,7 +29,6 @@ button {
     font-size: 16px;
 }
 button span {
-    cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
